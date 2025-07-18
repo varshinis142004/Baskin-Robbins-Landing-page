@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Baskin Robbins Website Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#" class="logo" ><img src="logo.png"  alt="logo"></a>
+            <div class="togglemenu" onclick="menutoggle()"></div>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="https://baskinrobbinsindia.com/pages/store-locator">Menu</a> </li>
+                <li><a href="https://baskinrobbinsindia.com/blogs/blogs">review</a></li>
+                <li><a href="https://baskinrobbinsindia.com/pages/about-us">about</a></li>
+                <li><a href="https://baskinrobbinsindia.com/pages/contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2 class="ani">Welcome to Baskin-Robbins,</h2>
+                <p><br>We've been serving Happiness in a cup (or on a cone!) since 1945.
+                Baskin-Robbins ice cream stands out from others due to its wide 
+                variety of unique and innovative flavors, its commitment to high 
+                quality ingredients, and its tradition of offering 31 different flavors, 
+                ensuring there's always something new and exciting to try.</p>
+                <a href="https://baskinrobbinsindia.com/">shop now</a>
+            </div>
+            <div class="imgbox">
+                <img src="flavor1.png" class="icecream">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="flavor1.png" onclick="imgslide('flavor1.png');changebgcolor('#0360b0')"></li>
+            <li><img src="flavor2.png" onclick="imgslide('flavor2.png');changebgcolor('#402021')"></li>
+            <li><img src="flavor3.png" onclick="imgslide('flavor3.png');changebgcolor('#f05097')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/BaskinRobbinsIn/"><img src="facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/baskinrobbinsin/?hl=en"><img src="instagram.png"></a></li>
+            <li><a href="https://x.com/BaskinRobbins?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
+

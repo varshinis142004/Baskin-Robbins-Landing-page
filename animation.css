@@ -1,0 +1,38 @@
+.ani {
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes colorChange {
+    0% {
+        color: white; 
+    }
+
+    25% {
+
+        color: #67D0DD;
+    }
+
+    50% {
+        color: #F6E785 ;
+    }
+
+    100% {
+        color: #9FE481 ;
+    }
+}
+
+.sec .imgbox img {
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform: translateY(-1rem);
+    }
+    50%{
+        transform: translateY(2rem);
+    }
+}
