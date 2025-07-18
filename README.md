@@ -15,9 +15,9 @@ The landing page features a modern layout with custom styling, smooth scrolling,
 ## Demo Video
 
 You can watch a demo of the website here:  
-**[Watch the Demo](#)**  
+# Watch the Demo
 
-[![Watch the demo](https://drive.google.com/drive/folders/1PDWfE8thkV02_N0oyIx-mN2AWN74C2oE?usp=sharing)]
+(https://drive.google.com/drive/folders/1PDWfE8thkV02_N0oyIx-mN2AWN74C2oE?usp=sharing)
 
 ## Features
 
